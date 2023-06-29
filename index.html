@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENERGYM</title>
+
+    <link rel="icon" href="img/th.jpeg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="title">
+        <h1 class="first">ENER<span class="second">GYM</span></h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#sliders">INICIO</a></li>
+          <li><a href="#muscle">EJERCICIO</a></li>
+          <li><a href="#about">SOBRE NOSOTROS</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+          <li><a href="#gallery">GALERIA</a></li>
+          <li>
+            <a
+              onclick="document.getElementById('id01').style.display='block'"
+              href="#"
+              >INICIO DE SESION</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--slider -->
+    <div
+      class="slider"
+      style="
+        background-image: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=action-athlete-barbell-841130.jpg&fm=jpg');
+        background-size: cover;
+      "
+    >
+      <button class="btn1" onclick="right()"></button>
+      <button class="btn2" onclick="right()"></button>
+
+      <h1>"El fitness no es un destino, es un viaje."</h1>
+    </div>
+    <!--End of slider-->
+    <!--about us section-->
+    <div class="about">
+      <center>
+        <div class="con">
+          <a href="https://www.instagram.com/sujalll.af/" target="_blank">
+            <div class="trainer" id="tr1"></div>
+          </a>
+
+          <a href="https://www.instagram.com/akshay_tare_11/" target="_blank">
+            <div class="trainer" id="tr2"></div>
+          </a>
+
+          <a href="https://www.instagram.com/omkaarrp/" target="_blank">
+            <div class="trainer" id="tr3"></div>
+          </a>
+          <div class="text">
+            ¡Hola y bienvenido a tu sesión de entrenamiento! Nuestros nombres
+            son Aaròn, Juan y Emmanuel y seremos sus entrenadores por hoy. Antes
+            de comenzar nos gustaría recordarte que siempre escuches a tu cuerpo
+            y dejes de hacer ejercicio si sientes algún dolor o molestia. Si
+            tiene alguna lesión o condición médica, háganoslo saber para que
+            pueda ajustar los ejercicios en consecuencia. Preparémonos para
+            sudar!" <br /><br />Comencemos con un calentamiento de cinco minutos
+            para aumentar el ritmo cardíaco y preparar los músculos para el
+            entrenamiento. Comenzaremos con algunos ejercicios cardiovasculares
+            ligeros como saltos, rodillas altas o trotar en el lugar. Luego,
+            pasaremos a algunos ejercicios de estiramiento dinámicos como
+            balanceos de piernas, círculos de brazos y estocadas. Recuerda
+            respirar profundamente y calentar a tu propio ritmo.
+            <br /><br />Ahora que ya has calentado, es el momento del
+            entrenamiento principal. Nos centraremos en un grupo muscular o
+            ejercicio específico. Haremos 4 series de 12 repeticiones cada una.
+            Asegúrate de usar la forma adecuada y contraer los músculos durante
+            todo el movimiento. Si no estás seguro de la técnica, no dudes en
+            pedirnos ayuda
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <div class="diet">
+      <center>
+        <div class="con">
+          <div class="trainer" id="tr1"></div>
+          <div class="text">
+            Los alimentos dietéticos generalmente se refieren a alimentos que
+            son bajos en calorías, grasa, azúcar y sal, y a menudo tienen un
+            alto contenido de fibra, proteínas y nutrientes. Estos alimentos
+            pueden incluir frutas, verduras, proteínas magras, cereales
+            integrales y productos lácteos bajos en grasa. La incorporación de
+            este tipo de alimentos en una dieta equilibrada y variada puede
+            promover la pérdida de peso y mejorar la salud en general
+            <div>
+              <a href="https://goodfoodcr.com/" target="_blank">
+                <button class="button">EMPECEMOS LA DIETA</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <div class="muscle">
+      <center>
+        <div class="con">
+          <h1
+            style="
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+          >
+            Selecciona el nivel en el que te encuentras 🔥
+          </h1>
+
+          <a href="comingsoon.html">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://images.pexels.com/photos/1552108/pexels-photo-1552108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+                background-size: cover;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Principiante</div>
+              </div>
+            </div>
+          </a>
+          <a href="comingsoon.html">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+                background-size: cover;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Intermedio</div>
+              </div>
+            </div>
+          </a>
+          <a href="comingsoon.html">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://i.pinimg.com/originals/13/2e/38/132e38266a3fd6f94dfe7436535d7de5.jpg');
+                background-size: cover;
+                background-position-y: -50px;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Avanzado</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </center>
+    </div>
+
+    <div class="parallax"></div>
+    <div class="fatloss">
+      <center>
+        <div class="con">
+          <div class="trainer" id="tr1"></div>
+          <div class="text">
+            La pérdida de grasa es el proceso de reducir la cantidad de grasa
+            corporal para lograr una composición corporal más saludable. Por lo
+            general, implica una combinación de reducción de calorías a través
+            de la dieta y aumento de la actividad física para quemar más
+            calorías. La consistencia y la paciencia son claves para lograr y
+            mantener la pérdida de grasa a largo plazo
+            <div>
+              <a href="">
+                <button class="button">TIPS PARA PÈRDIDA DE GRASA</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <div class="more">
+      <center>
+        <div class="con">
+          <a href="">
+            <div
+              class="b1"
+              id="fat"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.1933c7b1bb9f03c46363d8879fa5fc7e?rik=xpjYbLBdltH%2fvQ&pid=ImgRaw&r=0');
+                background-size: cover;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Suplementos</div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.1fc7d69b455de20baf05bda32fc27a92?rik=zVIJt%2fkosQsw8Q&pid=ImgRaw&r=0');
+                background-size: cover;
+                background-position-x: center;
+              "
+            >
+              <div class="overlay">
+                <div class="text">YOGA</div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.3ae81281c5b49448371d3ff54ec8eaca?rik=azGj2P%2boiGIZFw&riu=http%3a%2f%2fwww.lahandsurgeon.com%2fimages%2fside-banner-image.jpg&ehk=SpfRlK2mFYlyVEdIc7IiMWZCoB1l%2by%2bCRAqxf0R9tTs%3d&risl=&pid=ImgRaw&r=0');
+                background-size: cover;
+              "
+            >
+              <div class="overlay">
+                <div class="text">ALIVIO DEL DOLOR</div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.0d73e8e5fa4df7ac644090e9de9322ad?rik=j8lHL%2fpHjChktQ&riu=http%3a%2f%2finserurbana.com%2fwp-content%2fuploads%2f2016%2f05%2fcalistenia.jpg&ehk=FeUwbo7V%2fkJCN0y2KyIaEAepFvfO2vcOfSNCnxxZ7FY%3d&risl=&pid=ImgRaw&r=0');
+                background-size: cover;
+                background-position-x: center;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Calistenia</div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div
+              class="b1"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.ae8099552a6cb9d1d0c0e74d8f793538?rik=0P8dxBBcaCyX7g&riu=http%3a%2f%2fwallpapers-all.com%2fuploads%2fposts%2f2016-12%2f9_gym.jpg&ehk=x3kWLILAbm9B0Ty5mX4mXu6Z2Pc2iMmQ4Yocbgos37o%3d&risl=&pid=ImgRaw&r=0');
+                background-size: cover;
+              "
+            >
+              <div class="overlay">
+                <div class="text">Gyms</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </center>
+    </div>
+
+    <div class="gallery">
+      <center>
+        <div class="titles">
+          <b>
+            <q>Las excusas no queman calorìas</q>
+          </b>
+        </div>
+        <div class="maincon">
+          <div class="container">
+            <div class="image">
+              <img
+                src="https://wallpapercave.com/wp/wp7535604.jpg"
+                style="cover;"
+              />
+            </div>
+
+            <div class="image">
+              <img
+                src="https://www.laguiadelvaron.com/wp-content/uploads/2016/01/google.com_.mx-gabriel-grobben-crossfit-13_0.jpg"
+              />
+            </div>
+            <div class="image">
+              <img
+                src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chris-hemsworth-pesas-1551170251.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+              />
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="image">
+              <img
+                src="https://www.mundofitness.com/wp-content/uploads/mastering-front-squat-main.jpg"
+              />
+            </div>
+            <div class="image">
+              <img src="images/akshay.png" />
+            </div>
+            <div class="image">
+              <img
+                src="https://wallpaperboat.com/wp-content/uploads/2019/06/workout-motivation-06.jpg"
+              />
+            </div>
+            <div class="image">
+              <img src="https://mfiles.alphacoders.com/685/685914.jpg" />
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1613845205719-8c87760ab728?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3ltJTIwd29ya291dHxlbnwwfHwwfHw%3D&w=1000&q=80"
+              />
+            </div>
+            <div class="image">
+              <img
+                src="https://img5.goodfon.com/wallpaper/nbig/f/15/back-fitness-gym-power-pose.jpg"
+              />
+            </div>
+            <div class="image">
+              <img src="images/omkar.png" />
+            </div>
+            <div class="image">
+              <img
+                src="https://lh5.googleusercontent.com/proxy/2pJHDdjliTNYe6gfF4oCIwX4OgTI0JZFagqTK3YXWb-H-JajkwqtbGrzgGoEJBG0X8lEaDV7GJvP3P_FR3NEMqVVqWacsVTfmdbpTN4=w1200-h630-p-k-no-nu"
+              />
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="image">
+              <img src="https://images.hdqwalls.com/wallpapers/gym-girl.jpg" />
+            </div>
+            <div class="image">
+              <img src="images/damnsujal.jpg" />
+            </div>
+            <div class="image">
+              <img src="https://cdn.wallpapersafari.com/1/33/kotxSO.jpg" />
+            </div>
+            <div class="image">
+              <img
+                src="https://images.unsplash.com/photo-1605296866985-34ba3c0b527b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFuJTIwaW4lMjBneW18ZW58MHx8MHx8&w=1000&q=80"
+              />
+            </div>
+          </div>
+        </div>
+
+        <a href="gallery.html">
+          <button class="button">VER MÀS</button>
+        </a>
+      </center>
+    </div>
+
+    <div class="modal">
+      <span
+        onclick="document.getElementById('id01').style.display='none'"
+        class="close"
+        title="Close Modal"
+        >&times;</span
+      >
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <img
+            src="https://www.franchisetrade.in/wp-content/uploads/2018/02/gym-1-1.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Usuario</b></label>
+          <input
+            type="text"
+            placeholder="Ingrese su usuario"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Contraseña</b></label>
+          <input
+            type="password"
+            placeholder="Ingrese su contrase"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Iniciar sesiòn</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn"
+          >
+            Cancel
+          </button>
+          <span class="psw">Olvidaste <a href="#">la contraseña?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="container">
+        <h3>Sobre nosotros</h3>
+        <p>&copy; 2023 ENERGYM.COM TODOS LOS DERECHOS RESERVADOS</p>
+        <h3>Contactanos</h3>
+        <ul>
+          <li>Alajuela</li>
+          <li>Orotina, Mastate 10201</li>
+          <li>506 (61555619)</li>
+          <li>contrerasaaron447@gmail.com</li>
+        </ul>
+        <h3>Siguenos</h3>
+        <ul class="social">
+          <a href="https://www.facebook.com/energymcr/" class="fa fa-facebook">
+          </a>
+          <a
+            href="https://www.instagram.com/contrras_17/"
+            class="fa fa-instagram"
+          >
+          </a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

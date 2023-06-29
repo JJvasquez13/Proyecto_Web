@@ -1,0 +1,639 @@
+footer{
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  width: 100%;
+  height: 70px;
+  background-color: aliceblue;
+  display: flex;
+  position: fixed;
+  border-radius: 0px 0px 5px 5px;
+  z-index: 1;
+}
+
+a{
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+img{
+  border-radius: 10px;
+}
+
+form{
+  border: 3px solid #f1f1f1;
+}
+
+span.psw{
+  float: right;
+  padding-top: 16px;
+}
+
+.title{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title h1{
+  padding: 20px;
+}
+
+.first{
+  color: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.second{
+  color: slateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.menu ul li{
+  display: inline-block;
+  padding: 25px;
+}
+
+.menu ul{
+  padding: 0px 50px;
+}
+
+.menu{
+  width: 100%;
+  text-align: right;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slider{
+  width: 100%;
+  height: 600px;
+  padding-top: 70px;
+}
+
+.slider h1{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 5px 5px #0f0f0f;
+}
+
+.btn1, .btn2{
+  width: 3%;
+  height: 100px;
+  opacity: 0.5;
+  position: relative;
+  top:35%;
+}
+
+.btn1{
+  float: left;
+}
+
+.btn2{
+  float: right;
+}
+
+.about{
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+}
+
+.about .con{
+  width: 80%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.about .con .trainer{
+  width: 30%;
+  height: 400px;
+  background-color: blue;
+  display: inline-block;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.about #tr1{
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/357/468/desktop-wallpaper-430-chris-hemsworth-ideas-tyler-rake.jpg');
+  background-size: cover;
+  background-position-x: center;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+.about .con .text{
+  font-size: 18px;
+  margin: 20px;
+  padding-bottom: 50px;
+  text-align: justify;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.diet{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: aliceblue;
+}
+
+.diet .con{
+  width: 80%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.diet .con .trainer{
+  width: 30%;
+  height: 400px;
+  background-color: lightblue;
+  margin: 50px 50px;
+  border-radius: 10px;
+  float: left;
+}
+
+.diet .con .text{
+  font-size: 27px;
+  top: 20%;
+  position: relative;
+  margin: 20px;
+  padding-bottom: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.diet #tr1{
+  background-image: url('https://media.self.com/photos/5a316fd183ab3f54feacf768/4:3/w_2560%2Cc_limit/Roasted-pork.jpg');
+  background-size: cover;
+  background-position-x: center;
+}
+
+.button{
+  display: inline-block;
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #353535;
+  border: none;
+  border-radius: 0.5vw;
+  box-shadow: 0 0.5vw #999;
+  margin: 2vw 0vw;
+}
+
+.button:hover{
+  background-color:  rgb(95, 95, 95);
+  color: #0bc5ee;
+}
+
+.button:active{
+  background-color: rgb(49, 49, 49);
+  box-shadow: 0 0 #666;
+  transform: translateY(0.5vw);
+}
+
+.button{
+  display: inline-block;
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(49, 49, 49);
+  border: none;
+  border-radius: 0.5vw;
+  box-shadow: 0 0.5vw #999;
+  margin: 2vw 0vw;
+  transition: all 0.5s ease;
+  background-color: slateblue;
+}
+
+.muscle h1{
+  margin: 30px 0px;
+}
+
+.muscle .con{
+  width: 100%;
+  margin: 70px 0px;
+}
+
+.b1{
+  width: 300px;
+  height: 400px;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+#b1{
+  height: 20px;
+  border: 0px;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  border-radius: 0%;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.7;
+}
+
+.b1:hover .overlay{
+  height: 30%;
+}
+
+.overlay .text {
+  color: white;
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parallax{
+  background-image: url("https://wallpapercave.com/wp/wp3018787.jpg");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+.fatloss{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: aliceblue;
+}
+
+.fatloss .con{
+  width: 80%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.fatloss .con .trainer{
+  width: 30%;
+  height: 400px;
+  background-color: lightblue;
+  margin: 50px 50px;
+  border-radius: 10px;
+  float: left;
+}
+
+.fatloss .con .text{
+  font-size: 27px;
+  top: 20%;
+  position: relative;
+  margin: 20px;
+  padding-bottom: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.fatloss #tr1{
+  background-image: url('https://www.santeplusmag.com/wp-content/uploads/hormone-perte-de-poids.jpg');
+  background-size: cover;
+  background-position-x: right;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+.more .b1{
+  box-sizing: border-box;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+.more h1{
+  margin: 30px 0px;
+}
+
+.more .b1{
+  width: 150px;
+  height: 200px;
+  display: inline-flex;
+  position: relative;
+}
+
+.more .con{
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.more .overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: slateblue;
+  overflow: hidden;
+  border-radius: 0%;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
+  opacity: 0.75;
+}
+
+.more .overlay .text{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.gallery{
+  background-color: aliceblue;
+  padding: 30px 0px;
+}
+
+.gallery .titles{
+  font-size: 30px;
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+
+.gallery .maincon .container .image img{
+  border-radius: 10px;
+}
+
+.maincon .container .image{
+  padding: 10px;
+  width:80%;
+  height: auto;
+}
+
+.maincon .container img{
+  width: 100%;
+}
+
+.maincon .container video{
+ width: 100%;
+}
+
+.maincon .container :hover{
+  filter: grayscale(0);
+}
+
+.maincon .container{
+  display:flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.maincon{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.modal{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+.modal-content{
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 50%; 
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.close{
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus{
+  color: red;
+  cursor: pointer;
+}
+
+.imgcontainer{
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.cancelbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ff0000;
+}
+
+.social{
+  display: flex;
+}
+
+.social li{
+  margin-right: 10px;
+}
+
+.social a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #222;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.social a:hover{
+  background-color: slateblue;;
+  color: #fff;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+#tr2{
+  background-image: url('https://4kwallpapers.com/images/wallpapers/dwayne-johnson-1024x768-9878.jpeg');
+  background-size: cover;
+  background-position-x: center;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+#tr3{
+  background-image: url('https://wallpaperaccess.com/full/5506228.jpg');
+  background-size: cover;
+  background-position-x: center;
+  box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+}
+
+@media screen and (min-width: 1000px)
+{
+  .text{
+    font-size: 30px
+  }
+
+  .b1{
+    width: 40%;
+    height: 250px;
+    margin: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+  .text{
+    font-size: 20px
+  }
+
+  .b1{
+    width: 30%;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .overlay{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+  .text{
+    font-size: 25px
+  }
+
+  .b1{
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+  }
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 16px;
+}
+
+@media screen and (max-width: 300px){
+  span.psw{
+    display: block;
+    float: none;
+  }
+  .cancelbtn{
+    width: 100%;
+  }
+}
+
+.animate{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom{
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom{
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
