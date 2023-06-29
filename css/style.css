@@ -455,6 +455,7 @@ span.psw{
   max-width: 1200px;
   margin: 0 auto;
   margin-left: 20px;
+  padding: 16px;
 }
 
 .modal{
@@ -554,6 +555,15 @@ img.avatar{
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
 @media screen and (min-width: 1000px)
 {
   .text{
@@ -594,23 +604,6 @@ img.avatar{
     height: 200px;
     margin: 20px;
   }
-}
-
-::-webkit-scrollbar{
-  width: 0;
-}
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.container{
-  padding: 16px;
 }
 
 @media screen and (max-width: 300px){
