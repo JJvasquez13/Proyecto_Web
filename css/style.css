@@ -2,7 +2,7 @@ footer {
   background-color: #222;
   color: #fff;
   padding: 30px 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .footer-container {
@@ -49,35 +49,34 @@ ul li {
   background-color: #333;
 }
 
-
-h3{
+h3 {
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-p{
+p {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
 }
 
-ul li{
+ul li {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 10px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-nav{
+nav {
   width: 100%;
   height: 70px;
   background-color: aliceblue;
@@ -87,71 +86,71 @@ nav{
   z-index: 1;
 }
 
-a{
+a {
   text-decoration: none;
   color: #0f0f0f;
 }
 
-img{
+img {
   border-radius: 10px;
 }
 
-form{
+form {
   border: 3px solid #f1f1f1;
 }
 
-span.psw{
+span.psw {
   float: right;
   padding-top: 16px;
 }
 
-.title{
+.title {
   width: 30%;
   height: 100%;
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.title h1{
+.title h1 {
   padding: 20px;
 }
 
-.first{
+.first {
   color: #222;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
-.second{
+.second {
   color: slateblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
-.menu ul li{
+.menu ul li {
   display: inline-block;
   padding: 25px;
 }
 
-.menu ul{
+.menu ul {
   padding: 0px 50px;
 }
 
-.menu{
+.menu {
   width: 100%;
   text-align: right;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.slider{
+.slider {
   width: 100%;
   height: 600px;
   padding-top: 70px;
 }
 
-.slider h1{
+.slider h1 {
   color: aliceblue;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
   top: 40%;
   text-align: center;
@@ -159,35 +158,37 @@ span.psw{
   text-shadow: 5px 5px #0f0f0f;
 }
 
-.btn1, .btn2{
+.btn1,
+.btn2 {
   width: 3%;
   height: 100px;
   opacity: 0.5;
   position: relative;
-  top:35%;
+  top: 35%;
 }
 
-.btn1{
+.btn1 {
   float: left;
 }
 
-.btn2{
+.btn2 {
   float: right;
 }
 
-.about{
+.about {
   width: 100%;
   height: auto;
   padding-top: 100px;
 }
 
-.about .con{
+.about .con {
   width: 80%;
   height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.about .con .trainer{
+.about .con .trainer {
   width: 30%;
   height: 400px;
   background-color: blue;
@@ -196,35 +197,37 @@ span.psw{
   border-radius: 10px;
 }
 
-.about #tr1{
-  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/357/468/desktop-wallpaper-430-chris-hemsworth-ideas-tyler-rake.jpg');
+.about #tr1 {
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/357/468/desktop-wallpaper-430-chris-hemsworth-ideas-tyler-rake.jpg");
   background-size: cover;
   background-position-x: center;
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-.about .con .text{
+.about .con .text {
   font-size: 18px;
   margin: 20px;
   padding-bottom: 50px;
   text-align: justify;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.diet{
+.diet {
   width: 100%;
   height: auto;
   display: flex;
   background-color: aliceblue;
 }
 
-.diet .con{
+.diet .con {
   width: 80%;
   height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.diet .con .trainer{
+.diet .con .trainer {
   width: 30%;
   height: 400px;
   background-color: lightblue;
@@ -233,22 +236,23 @@ span.psw{
   float: left;
 }
 
-.diet .con .text{
+.diet .con .text {
   font-size: 27px;
   top: 20%;
   position: relative;
   margin: 20px;
   padding-bottom: 50px;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.diet #tr1{
-  background-image: url('https://media.self.com/photos/5a316fd183ab3f54feacf768/4:3/w_2560%2Cc_limit/Roasted-pork.jpg');
+.diet #tr1 {
+  background-image: url("https://media.self.com/photos/5a316fd183ab3f54feacf768/4:3/w_2560%2Cc_limit/Roasted-pork.jpg");
   background-size: cover;
   background-position-x: center;
 }
 
-.button{
+.button {
   display: inline-block;
   padding: 1vw 2vw;
   font-size: 1vw;
@@ -264,18 +268,18 @@ span.psw{
   margin: 2vw 0vw;
 }
 
-.button:hover{
-  background-color:  rgb(95, 95, 95);
+.button:hover {
+  background-color: rgb(95, 95, 95);
   color: #0bc5ee;
 }
 
-.button:active{
+.button:active {
   background-color: rgb(49, 49, 49);
   box-shadow: 0 0 #666;
   transform: translateY(0.5vw);
 }
 
-.button{
+.button {
   display: inline-block;
   padding: 1vw 2vw;
   font-size: 1vw;
@@ -293,16 +297,16 @@ span.psw{
   background-color: slateblue;
 }
 
-.muscle h1{
+.muscle h1 {
   margin: 30px 0px;
 }
 
-.muscle .con{
+.muscle .con {
   width: 100%;
   margin: 70px 0px;
 }
 
-.b1{
+.b1 {
   width: 300px;
   height: 400px;
   display: inline-flex;
@@ -311,26 +315,26 @@ span.psw{
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-#b1{
+#b1 {
   height: 20px;
   border: 0px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #008cba;
   border-radius: 0%;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0.7;
 }
 
-.b1:hover .overlay{
+.b1:hover .overlay {
   height: 30%;
 }
 
@@ -344,12 +348,12 @@ span.psw{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.parallax{
+.parallax {
   background-image: url("https://wallpapercave.com/wp/wp3018787.jpg");
-  min-height: 400px; 
+  min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -357,20 +361,21 @@ span.psw{
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-.fatloss{
+.fatloss {
   width: 100%;
   height: auto;
   display: flex;
   background-color: aliceblue;
 }
 
-.fatloss .con{
+.fatloss .con {
   width: 80%;
   height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.fatloss .con .trainer{
+.fatloss .con .trainer {
   width: 30%;
   height: 400px;
   background-color: lightblue;
@@ -379,44 +384,45 @@ span.psw{
   float: left;
 }
 
-.fatloss .con .text{
+.fatloss .con .text {
   font-size: 27px;
   top: 20%;
   position: relative;
   margin: 20px;
   padding-bottom: 50px;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.fatloss #tr1{
-  background-image: url('https://www.santeplusmag.com/wp-content/uploads/hormone-perte-de-poids.jpg');
+.fatloss #tr1 {
+  background-image: url("https://www.santeplusmag.com/wp-content/uploads/hormone-perte-de-poids.jpg");
   background-size: cover;
   background-position-x: right;
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-.more .b1{
+.more .b1 {
   box-sizing: border-box;
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-.more h1{
+.more h1 {
   margin: 30px 0px;
 }
 
-.more .b1{
+.more .b1 {
   width: 150px;
   height: 200px;
   display: inline-flex;
   position: relative;
 }
 
-.more .con{
+.more .con {
   width: 100%;
   margin: 10px 0px;
 }
 
-.more .overlay{
+.more .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -426,11 +432,11 @@ span.psw{
   border-radius: 0%;
   width: 100%;
   height: 0;
-  transition: .3s ease;
+  transition: 0.3s ease;
   opacity: 0.75;
 }
 
-.more .overlay .text{
+.more .overlay .text {
   color: white;
   font-size: 10px;
   position: absolute;
@@ -440,86 +446,89 @@ span.psw{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.gallery{
+.gallery {
   background-color: aliceblue;
   padding: 30px 0px;
 }
 
-.gallery .titles{
+.gallery .titles {
   font-size: 30px;
   padding: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
   text-transform: uppercase;
 }
 
-.gallery .maincon .container .image img{
+.gallery .maincon .container .image img {
   border-radius: 10px;
 }
 
-.maincon .container .image{
+.maincon .container .image {
   padding: 10px;
-  width:80%;
+  width: 80%;
   height: auto;
 }
 
-.maincon .container img{
+.maincon .container img {
   width: 100%;
 }
 
-.maincon .container video{
- width: 100%;
+.maincon .container video {
+  width: 100%;
 }
 
-.maincon .container :hover{
+.maincon .container :hover {
   filter: grayscale(0);
 }
 
-.maincon .container{
-  display:flex;
+.maincon .container {
+  display: flex;
   flex-flow: column wrap;
   width: 100%;
   align-items: center;
 }
 
-.maincon{
+.maincon {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   margin-left: 20px;
   padding: 16px;
 }
 
-.modal{
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   padding-top: 60px;
 }
 
-.modal-content{
+.modal-content {
   background-color: #fefefe;
-  margin: 5px auto; 
+  margin: 5px auto;
   border: 1px solid #888;
-  width: 50%; 
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  width: 50%;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
 }
 
-.close{
+.close {
   position: absolute;
   right: 25px;
   top: 0;
@@ -528,36 +537,37 @@ span.psw{
   font-weight: bold;
 }
 
-.close:hover, .close:focus{
+.close:hover,
+.close:focus {
   color: red;
   cursor: pointer;
 }
 
-.imgcontainer{
+.imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
 }
 
-img.avatar{
+img.avatar {
   width: 20%;
   border-radius: 50%;
 }
 
-.cancelbtn{
+.cancelbtn {
   width: auto;
   padding: 10px 18px;
   background-color: #ff0000;
 }
 
-.social{
+.social {
   display: flex;
 }
 
-.social li{
+.social li {
   margin-right: 10px;
 }
 
-.social a{
+.social a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -571,30 +581,31 @@ img.avatar{
   margin: 10px;
 }
 
-.social a:hover{
-  background-color: slateblue;;
+.social a:hover {
+  background-color: slateblue;
   color: #fff;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0;
 }
 
-#tr2{
-  background-image: url('https://4kwallpapers.com/images/wallpapers/dwayne-johnson-1024x768-9878.jpeg');
+#tr2 {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/dwayne-johnson-1024x768-9878.jpeg");
   background-size: cover;
   background-position-x: center;
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-#tr3{
-  background-image: url('https://wallpaperaccess.com/full/5506228.jpg');
+#tr3 {
+  background-image: url("https://wallpaperaccess.com/full/5506228.jpg");
   background-size: cover;
   background-position-x: center;
   box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -603,69 +614,76 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1000px)
-{
-  .text{
-    font-size: 30px
+@media screen and (min-width: 1000px) {
+  .text {
+    font-size: 30px;
   }
 
-  .b1{
+  .b1 {
     width: 40%;
     height: 250px;
     margin: 30px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px){
-  .text{
-    font-size: 20px
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .text {
+    font-size: 20px;
   }
 
-  .b1{
+  .b1 {
     width: 30%;
     height: 50px;
     margin: 20px;
     border-radius: 5px;
   }
 
-  .overlay{
+  .overlay {
     display: none;
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1000px){
-  .text{
-    font-size: 25px
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .text {
+    font-size: 25px;
   }
 
-  .b1{
+  .b1 {
     width: 40%;
     height: 200px;
     margin: 20px;
   }
 }
 
-@media screen and (max-width: 300px){
-  span.psw{
+@media screen and (max-width: 300px) {
+  span.psw {
     display: block;
     float: none;
   }
-  .cancelbtn{
+  .cancelbtn {
     width: 100%;
   }
 }
 
-.animate{
+.animate {
   -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
+  animation: animatezoom 0.6s;
 }
 
-@-webkit-keyframes animatezoom{
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 
-@keyframes animatezoom{
-  from {transform: scale(0)}
-  to {transform: scale(1)}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
