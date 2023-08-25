@@ -12,8 +12,9 @@ form.addEventListener("submit", function (event) {
     errorMsg.textContent = "El nombre de usuario debe comenzar con mayúscula";
     return;
   }
+
   // Validación de contraseña
-  else if (
+  if (
     !/[A-Z]/.test(contrasena) ||
     !/\d/.test(contrasena) ||
     !/[!@#$%^&*]/.test(contrasena)
@@ -22,7 +23,6 @@ form.addEventListener("submit", function (event) {
     errorMsg.textContent =
       "La contraseña debe tener al menos una mayúscula, un número y un caracter especial";
     return;
-  } else {
-    window.location.href = "index.html";
   }
+  return (window.location.href = "index.html");
 });
