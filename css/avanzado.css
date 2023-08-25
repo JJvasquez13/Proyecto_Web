@@ -186,7 +186,7 @@ ul li {
 }
 
 .social a:hover {
-  background-color: slateblue;
+  background-color: rgb(176, 91, 255);
   color: #fff;
   text-decoration: none;
 }

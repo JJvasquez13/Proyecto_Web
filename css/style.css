@@ -172,18 +172,18 @@ div.menu a:hover {
 }
 
 #tr1 {
-  background-image: url("../img/entrenador1.jpg");
+  background-image: url("../img/entrenador1.jpeg");
   background-size: cover;
   background-position-x: center;
 }
 #tr2 {
-  background-image: url("../img/entrenador2.avif");
+  background-image: url("../img/entrenador2.jpg");
   background-size: cover;
   background-position-x: center;
 }
 
 #tr3 {
-  background-image: url("../img/entrenador3.avif");
+  background-image: url("../img/entrenador3.jpg");
   background-size: cover;
   background-position-x: center;
 }

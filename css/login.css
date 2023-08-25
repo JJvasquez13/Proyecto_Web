@@ -58,8 +58,3 @@ a:hover {
   text-decoration: none;
   color: rgb(176, 91, 255);
 }
-
-input:focus {
-  border-color: rgb(176, 91, 255);
-  box-shadow: none;
-}
