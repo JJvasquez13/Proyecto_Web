@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/avanzado.css" />
+    <link rel="icon" href="img/th.jpeg" />
+    <title>Rutinas Intermedias ENERGYM</title>
+  </head>
+  <body>
+    <nav>
+      <div class="titulo">
+        <h1 class="primero">ENER<span class="segundo">GYM</span></h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="index.html">SOBRE NOSOTROS</a></li>
+          <li><a href="index.html">CONTACTO</a></li>
+          <li>
+            <a href="login.html">INICIO DE SESION</a>
+          </li>
+          /
+          <li><a href="registro.html">REGISTRARME</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 mt-3"></div>
+      </div>
+      <div class="row colorFondo">
+        <div class="col-2"></div>
+        <div class="col-8 mt-4 p-2">
+          <h1
+            class="mt-5 d-flex justify-content-center align-items-center text-white"
+          >
+            Bienvenidos a las Rutinas para Intermedios en el gimnasio
+          </h1>
+          <p
+            class="mt-3 d-flex justify-content-center align-items-center text-white"
+          >
+            Aquí encontrarás rutinas de entrenamiento personalizadas para
+            diferentes años de experiencia en el gimnasio
+          </p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="container">
+        <h2 class="mb-4 d-flex justify-content-center align-items-center mt-4">
+          Selecciona la Cantidad de meses de Entrenamiento
+        </h2>
+        <select id="yearsOfTraining" class="form-control mb-4 mt-2">
+          <option value="6">6 meses</option>
+          <option value="8">8 meses</option>
+          <option value="10">10 meses</option>
+          <option value="15">15 meses o más</option>
+        </select>
+      </div>
+
+      <div class="container">
+        <h2 class="mb-4 mt-3 d-flex justify-content-center align-items-center">
+          Rutinas de la Semana
+        </h2>
+        <div id="routineContainer" class="row"></div>
+      </div>
+    </div>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre nosotros</h3>
+          <p>&copy; 2023 ENERGYM.COM TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contactanos</h3>
+          <ul>
+            <li>Alajuela</li>
+            <li>Orotina, Mastate 10201</li>
+            <li>506 (61555619)</li>
+            <li>contrerasaaron447@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Siguenos</h3>
+          <ul class="social">
+            <li>
+              <a href="" class="fa fa-facebook"></a>
+            </li>
+            <li>
+              <a href="" class="fa fa-instagram"></a>
+            </li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/intermedio.js"></script>
+  </body>
+</html>
