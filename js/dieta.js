@@ -54,7 +54,7 @@ document
             <table class="table">
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Batido de proteínas con avena y frutas.</td><td>350</td><td><img src="../img/comida7.jpg"width="200px" height="200px" alt="Desayuno para adultos jóvenes"></td></tr>
-              <tr><td>Almuerzo</td><td>Ensalada de pollo con aguacate.</td><td>400</td><td><img src="../img/comida14.jpg"width="200px" height="200px" alt="Almuerzo para adultos jóvenes"></td></tr>
+              <tr><td>Almuerzo</td><td>Ensalada de pollo con aguacate.</td><td>400</td><td><img src="../img/comida14.jfif"width="200px" height="200px" alt="Almuerzo para adultos jóvenes"></td></tr>
               <tr><td>Merienda</td><td>Frutos secos y yogur griego.</td><td>250</td><td><img src="../img/comida11.jpg"width="200px" height="200px" alt="Merienda para adultos jóvenes"></td></tr>
               <tr><td>Cena</td><td>Pescado a la parrilla con quinoa.</td><td>400</td><td><img src="../img/comida15.jpg"width="200px" height="200px" alt="Cena para adultos jóvenes"></td></tr>
             </table>
@@ -77,7 +77,7 @@ document
             <table class="table">
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Yogur con granola y frutas.</td><td>350</td><td><img src="../img/comida11.jpg"width="200px" height="200px" alt="Desayuno para adultos jóvenes"></td></tr>
-              <tr><td>Almuerzo</td><td>Sándwich de pavo con ensalada.</td><td>400</td><td><img src="../img/comida22.jpg"width="200px" height="200px" alt="Almuerzo para adultos jóvenes"></td></tr>
+              <tr><td>Almuerzo</td><td>Sándwich de pavo con ensalada.</td><td>400</td><td><img src="../img/comida22.jfif"width="200px" height="200px" alt="Almuerzo para adultos jóvenes"></td></tr>
               <tr><td>Merienda</td><td>Barrita de proteínas y fruta fresca.</td><td>250</td><td><img src="../img/comida23.jpg"width="200px" height="200px" alt="Merienda para adultos jóvenes"></td></tr>
               <tr><td>Cena</td><td>Pollo a la parrilla con patatas y brócoli.</td><td>450</td><td><img src="../img/comida24.jpg"width="200px" height="200px" alt="Cena para adultos jóvenes"></td></tr>
             </table>
@@ -89,7 +89,7 @@ document
             <h2>Plan de alimentación para adultos de mediana edad (Bajar de Peso)</h2>
             <table class="table">
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
-              <tr><td>Desayuno</td><td>Yogur con frutas y nueces.</td><td>300</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Desayuno para adultos de mediana edad"></td></tr>
+              <tr><td>Desayuno</td><td>Yogur con frutas y nueces.</td><td>300</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Desayuno para adultos de mediana edad"></td></tr>
               <tr><td>Almuerzo</td><td>Ensalada de salmón con aguacate.</td><td>400</td><td><img src="../img/comida26.jpg"width="200px" height="200px" alt="Almuerzo para adultos de mediana edad"></td></tr>
               <tr><td>Merienda</td><td>Frutos secos y batido de proteínas.</td><td>250</td><td><img src="../img/comida7.jpg"width="200px" height="200px" alt="Merienda para adultos de mediana edad"></td></tr>
               <tr><td>Cena</td><td>Pollo al horno con quinoa y brócoli.</td><td>400</td><td><img src="../img/comida28.webp"width="200px" height="200px" alt="Cena para adultos de mediana edad"></td></tr>
@@ -102,7 +102,7 @@ document
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Tostadas con aguacate y huevo.</td><td>350</td><td><img src="../img/comida5.jpg"width="200px" height="200px" alt="Desayuno para adultos de mediana edad"></td></tr>
               <tr><td>Almuerzo</td><td>Pasta con albóndigas y ensalada.</td><td>450</td><td><img src="../img/comida30.jpg"width="200px" height="200px" alt="Almuerzo para adultos de mediana edad"></td></tr>
-              <tr><td>Merienda</td><td>Yogur con frutas y frutos secos.</td><td>500</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Merienda para adultos de mediana edad"></td></tr>
+              <tr><td>Merienda</td><td>Yogur con frutas y frutos secos.</td><td>500</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Merienda para adultos de mediana edad"></td></tr>
               <tr><td>Cena</td><td>Pechuga de pollo con puré de patatas y verduras.</td><td>400</td><td><img src="../img/comida32.jpg" width="200px" height="200px" alt="Cena para adultos de mediana edad"></td></tr>
               <tr><td>Merienda 2</td><td>Mantequilla de maní con 5 tostadas.</td><td>1150</td><td><img src="../img/comida33.jpg"width="200px" height="200px" alt="Merienda para adultos mayores avanzados"></td></tr>
             </table>
@@ -114,8 +114,8 @@ document
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Cereal con leche y fruta.</td><td>350</td><td><img src="../img/comida1.jpg"width="200px" height="200px" alt="Desayuno para adultos de mediana edad"></td></tr>
               <tr><td>Almuerzo</td><td>Pollo a la parrilla con arroz integral y verduras.</td><td>450</td><td><img src="../img/comida34.webp"width="200px" height="200px" alt="Almuerzo para adultos de mediana edad"></td></tr>
-              <tr><td>Merienda</td><td>Yogur con nueces y frutas.</td><td>250</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Merienda para adultos de mediana edad"></td></tr>
-              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jpg" width="200px" height="200px" alt="Cena para adultos de mediana edad"></td></tr>
+              <tr><td>Merienda</td><td>Yogur con nueces y frutas.</td><td>250</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Merienda para adultos de mediana edad"></td></tr>
+              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jfif" width="200px" height="200px" alt="Cena para adultos de mediana edad"></td></tr>
             </table>
           `;
       }
@@ -125,8 +125,8 @@ document
             <h2>Plan de alimentación para adultos mayores (Bajar de Peso)</h2>
             <table class="table">
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
-              <tr><td>Desayuno</td><td>Yogur con frutas y avena.</td><td>300</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Desayuno para adultos mayores"></td></tr>
-              <tr><td>Almuerzo</td><td>Sopa de verduras y pollo.</td><td>350</td><td><img src="../img/comida35.jpg"width="200px" height="200px" alt="Almuerzo para adultos mayores"></td></tr>
+              <tr><td>Desayuno</td><td>Yogur con frutas y avena.</td><td>300</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Desayuno para adultos mayores"></td></tr>
+              <tr><td>Almuerzo</td><td>Sopa de verduras y pollo.</td><td>350</td><td><img src="../img/comida35.jfif"width="200px" height="200px" alt="Almuerzo para adultos mayores"></td></tr>
               <tr><td>Merienda</td><td>Frutos secos y té.</td><td>200</td><td><img src="../img/comida36.webp"width="200px" height="200px" alt="Merienda para adultos mayores"></td></tr>
               <tr><td>Cena</td><td>Pescado al horno con puré de patatas y ensalada.</td><td>400</td><td><img src="../img/comida37.jpg"width="200px" height="200px" alt="Cena para adultos mayores"></td></tr>
             </table>
@@ -150,8 +150,8 @@ document
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Cereal con leche y fruta.</td><td>350</td><td><img src="../img/comida1.jpg"width="200px" height="200px" alt="Desayuno para adultos mayores"></td></tr>
               <tr><td>Almuerzo</td><td>Pollo a la parrilla con arroz y verduras.</td><td>450</td><td><img src="../img/comida2.jpg"width="200px" height="200px" alt="Almuerzo para adultos mayores"></td></tr>
-              <tr><td>Merienda</td><td>Yogur con frutas y nueces.</td><td>250</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Merienda para adultos mayores"></td></tr>
-              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jpg" width="200px" height="200px" alt="Cena para adultos mayores"></td></tr>
+              <tr><td>Merienda</td><td>Yogur con frutas y nueces.</td><td>250</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Merienda para adultos mayores"></td></tr>
+              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jfif" width="200px" height="200px" alt="Cena para adultos mayores"></td></tr>
             </table>
           `;
       }
@@ -161,7 +161,7 @@ document
             <h2>Plan de alimentación para adultos mayores avanzados (Bajar de Peso)</h2>
             <table class="table">
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
-              <tr><td>Desayuno</td><td>Yogur con frutas y avena.</td><td>300</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Desayuno para adultos mayores avanzados"></td></tr>
+              <tr><td>Desayuno</td><td>Yogur con frutas y avena.</td><td>300</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Desayuno para adultos mayores avanzados"></td></tr>
               <tr><td>Almuerzo</td><td>Sopa de verduras y pescado.</td><td>350</td><td><img src="../img/comida40.jpg"width="200px" height="200px" alt="Almuerzo para adultos mayores avanzados"></td></tr>
               <tr><td>Merienda</td><td>Frutos secos y té.</td><td>200</td><td><img src="../img/comida36.webp"width="200px" height="200px" alt="Merienda para adultos mayores avanzados"></td></tr>
               <tr><td>Cena</td><td>Pollo al horno con puré de patatas y ensalada.</td><td>400</td><td><img src="../img/comida41.jpg"width="200px" height="200px" alt="Cena para adultos mayores avanzados"></td></tr>
@@ -187,8 +187,8 @@ document
               <tr><th>Comida</th><th>Descripción</th><th>Calorías</th><th>Imagen</th></tr>
               <tr><td>Desayuno</td><td>Cereal con leche y fruta.</td><td>350</td><td><img src="../img/comida1.jpg"width="200px" height="200px" alt="Desayuno para adultos mayores avanzados"></td></tr>
               <tr><td>Almuerzo</td><td>Pollo a la parrilla con arroz y verduras.</td><td>450</td><td><img src="../img/comida2.jpg"width="200px" height="200px" alt="Almuerzo para adultos mayores avanzados"></td></tr>
-              <tr><td>Merienda</td><td>Yogur con frutas y nueces.</td><td>250</td><td><img src="../img/comida25.jpg"width="200px" height="200px" alt="Merienda para adultos mayores avanzados"></td></tr>
-              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jpg" width="200px" height="200px" alt="Cena para adultos mayores avanzados"></td></tr>
+              <tr><td>Merienda</td><td>Yogur con frutas y nueces.</td><td>250</td><td><img src="../img/comida25.jfif"width="200px" height="200px" alt="Merienda para adultos mayores avanzados"></td></tr>
+              <tr><td>Cena</td><td>Pescado al horno con ensalada mixta.</td><td>400</td><td><img src="../img/comida4.jfif" width="200px" height="200px" alt="Cena para adultos mayores avanzados"></td></tr>
             </table>
           `;
       }
