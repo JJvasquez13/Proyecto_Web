@@ -103,6 +103,15 @@ div.menu a:hover {
   text-shadow: 5px 5px #0f0f0f;
 }
 
+.parallax {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5e81f296eca8656d4cc7f9ac/1625218190083-45ABEW5ZJG5BIZRCS5O6/SwiftGym036_sr.jpg?format=2500w");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .info {
   width: 100%;
   height: auto;
@@ -125,7 +134,7 @@ div.menu a:hover {
 }
 
 .info .continfo .text {
-  font-size: 18px;
+  font-size: 22px;
   margin: 20px;
   padding-bottom: 50px;
   text-align: justify;

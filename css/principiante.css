@@ -24,6 +24,12 @@ a {
   text-decoration: none;
   color: #0f0f0f;
 }
+
+a:hover {
+  text-decoration: none;
+  color: rgb(176, 91, 255);
+}
+
 img {
   border-radius: 10px;
 }
@@ -40,22 +46,25 @@ span.psw {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .titulo h1 {
   padding: 0px;
 }
+
 .primero {
   color: #222;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 .segundo {
-  color: slateblue;
+  color: rgb(176, 91, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 .menu ul li {
   display: inline-block;
-  padding: 25px;
+  padding: 10px;
+  margin-top: 13px;
 }
 .menu ul {
   padding: 0px 50px;
